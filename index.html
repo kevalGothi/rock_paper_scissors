@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h1 id="declare">
+            Rock Paper scissors
+        </h1>
+    </div>
+  
+    <div class="choices">
+        <div class="choice" id="rock">
+          <img src="./img/fist.png" alt="Rock">
+        </div>
+        <div class="choice" id="paper">
+          <img src="./img/hand-paper.png" alt="Paper">
+        </div>
+        <div class="choice" id="scissors">
+          <img src="./img/scissors.png" alt="Scissors">  
+        </div>
+        <div class="choice" id="lizard">
+            <img src="./img/hand.png" alt="Lizard">
+        </div>
+        <div class="choice" id="spock">
+            <img src="./img/vulcan-salute.png" alt="Spock">
+        </div>
+    </div> 
+
+    <div class="fotter">
+        <div class="score">
+
+            <div class="yourscore">
+                Your Score: <br>
+                <p id="yourscore">0</p>
+            </div>
+            <div class="compscore">
+                Computer's Score: <br>
+                <p id="compscore">
+                    0
+                </p>
+            </div>
+            <div class="compscore">
+                Draw Score: <br>
+                <p id="drawscore">
+                    0
+                </p>
+            </div>
+            
+        </div>
+        <div class="btn">
+            <h4 class="msg">
+                Play your move
+            </h4>
+        </div>
+        <div style="margin: 10px;"></div>
+        <div class="btn" onclick="restart()">
+            <h4 class="msg">
+                restart
+            </h4>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
